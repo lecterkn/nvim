@@ -9,4 +9,4 @@ vim.keymap.set("n", "<C-l>", "<C-w>l")
 
 vim.keymap.set("v", "<leader>yy", '"+yy')
 
-vim.keymap.set("n", "<leader>x", ":bd<CR>")
+vim.keymap.set("n", "<leader>x", vim.cmd.bd)
