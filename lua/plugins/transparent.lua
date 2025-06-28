@@ -16,5 +16,6 @@ return {
         })
         require('transparent').clear_prefix('BufferLine')
         require('transparent').clear_prefix('Telescope')
+        require('transparent').clear_prefix('Lazy')
     end,
 }
