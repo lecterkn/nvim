@@ -14,4 +14,4 @@ vim.opt.scrolloff = 8
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
-vim.opt.fillchars = { eob = ' ' }
+vim.opt.fillchars = { eob = " " }
