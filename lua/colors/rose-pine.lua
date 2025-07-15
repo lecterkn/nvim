@@ -3,11 +3,12 @@ return {
 	"rose-pine/neovim",
 	name = "rose-pine",
 	config = function()
-        require("rose-pine").setup({
-            variant = "moon",
-            styles = {
-                italic = false
-            }
-        })
-	end
+		require("rose-pine").setup({
+			variant = "moon",
+			styles = {
+				italic = false,
+				transparency = vim.g.transparent_enabled,
+			},
+		})
+	end,
 }

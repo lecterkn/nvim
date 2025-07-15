@@ -26,6 +26,9 @@ return {
 		},
 		sources = {
 			default = { "lsp", "path", "snippets", "buffer" },
+			providers = {
+				lsp = { fallbacks = {} },
+			},
 		},
 		fuzzy = { implementation = "prefer_rust_with_warning" },
 	},
