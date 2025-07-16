@@ -7,7 +7,7 @@ return {
 			variant = "moon",
 			styles = {
 				italic = false,
-				transparency = vim.g.transparent_enabled,
+				-- transparency = vim.g.transparent_enabled,
 			},
 		})
 	end,
