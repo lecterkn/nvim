@@ -1,5 +1,6 @@
 vim.opt.guicursor = ""
 vim.opt.relativenumber = true
+vim.opt.number = true
 
 vim.opt.wrap = false
 
